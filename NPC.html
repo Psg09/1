@@ -1,0 +1,500 @@
+<html>
+    <head>
+        <title>NPC</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="estilos-npc.css" type="text/css">
+    </head>
+
+    <body>
+        <header>
+            <div class="topnav" id="miTopnav">
+                <a href="inicio">
+                    <img src="recursos/R.png" width="80px" alt="">
+                </a>
+                <a href="a">Guía básica</a>
+                <a href="a">NPC´s</a>
+                <a href="a">Jefes</a>
+                <a href="a">Busqueda</a>
+                <a href="javascrip:void(0)" onclick="miBotomMobile()" class="icono">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+
+            <script>
+                function miBotomMobile(){
+                    //Iniciar la variable X
+                    var x = document.getElementById("miTopnav");
+                    //Generar condición operante
+                    if(x.className === "topnav"){
+                        x.className += "responsive";
+                    }
+                    else{
+                        x.className = "topnav";
+                    }
+                }
+    
+            </script>
+        </header>
+
+        <nav>
+            <h1>WIKI. Terraria para todos</h1>
+            <h3>Guía para NPC</h3>
+        </nav>
+        <section>
+            <div class="sec1">
+                <div class="text1">
+                    <p>
+                        Los NPC ("Non-Player-Characters") o PNJ (Personajes No Jugables) son personajes que no puede manejar el jugador. Hay un total de 31, de los cuales 28Versión de PC /23 Versión de Consola / 22 Versión de móvil / 21 Versión de consolas antiguas / 19 Versión de 3DS NPCs necesitan una casa en la que pueda vivir. Los otros 3 Versión de PC Versión de Consola Versión de móvil/ 2 Versión de consolas antiguas / 1 Versión de 3DS no se mudan a las casas. Todos los NPCs pueden sufrir daños por parte de los monstruos menos el anciano. Tienen 250 de vida y 15 de defensa. Recuperan vida con el paso del tiempo al igual que el jugador. Cuando un NPC muere por cualquier razón, aparecerá pasado un tiempo siempre y cuando tenga una habitación libre y se sigan cumpliendo sus requisitos.
+                    </p>
+                </div>
+            </div>
+            <div>
+                <div class="text2">
+                    <ul>
+                        <li>
+                            <p>
+                                Varios NPC pueden engendrar en el mismo día. Si la ubicación de la vivienda está a la vista del jugador, el nuevo NPC reaparecerá ligeramente fuera de la pantalla, de lo contrario, aparecerá en la vivienda disponible. Un NPC muerto reaparecerá al día siguiente y regresará a su casa (siempre que cumpla con los requisitos). Si una casa ocupada por un NPC es destruida, el NPC se mudará, pero caminará en la misma área y ya no se quedará quieto durante la noche hasta que se restaure la casa o se construya una nueva.
+                            </p>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <p>
+                                Durante el día, los NPC pasearán por el mapa; socializaran, se sentarán y caminarán por la casa y alrededores, sin embargo en la noche se quedarán dentro de sus habitaciones. Cada NPC que se instale en su casa hará que se reduzca la aparición de enemigos en las cercanías, pero este efecto no se aplicara durante los eventos tampoco revivirán si mueren hasta que termine.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="text">
+                <h2>Requisitos</h2>
+                <p>
+                    Para que aparezca uno de ellos debes cumplir ciertos requisitos:
+
+                    Tener una habitación para ellos. La habitación debe tener:
+                    Paredes (No sirven de tierra), techo, suelo, un mueble plano, un mueble de confort, iluminación y una puerta.
+                    Las medidas de la habitación tienen que ser minimo de 10 x 6.
+
+                    Todos los NPC se pueden quedar a vivir, excepto el Anciano, Mercader ambulante y Mercader esquelético.
+                </p>
+            </div>
+            <div class="titulos">
+                <div class="titulos">
+                    <h4>NPC del modo normal</h4>
+                    <p>
+                        Todos los NPC que se adquieren en el juego antes de pasar al modo difícil.
+                        Información de donde colocarlos, requisitos, etc.
+                    </p>
+                </div>
+
+                <table>
+                    <tr>
+                        <th></th>
+                        <th>Nombre</th>
+                        <th>Especialidad</th>
+                        <th>Requisitos</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="recursos/NPC/Guide.png" width="30PX" marging="5px auto">
+                        </td>
+                        <td>Guía</td>
+                        <td>Te enseña los crafteos posibles con un material determinado</td>
+                        <td>Tener una vivienda disponible en el mundo</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="recursos/NPC/Merchant.png" width="30PX" padding="5px auto">
+                        </td>
+                        <td>Mercader</td>
+                        <td>Vende objetos básicos</td>
+                        <td>Conseguir 50 Moneda de plata</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="recursos/NPC/Nurse.png" width="30PX" padding="5px auto">
+                        </td>
+                        <td>Enfermera</td>
+                        <td>Cura y elimina efectos negativos por monedas*</td>
+                        <td>Encontrar y usar el primer cristal de vida.</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="recursos/NPC/Demolitionist.png" width="30PX" padding="5px auto">
+                        </td>
+                        <td>Demoledor</td>
+                        <td>Vende explosivos.</td>
+                        <td>Tener en el inventario algún tipo de explosivo.</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="recursos/NPC/Dryad.png" width="30PX" padding="5px auto">
+                        </td>
+                        <td>Dríada</td>
+                        <td>Vende objetos de la naturaleza,
+                            Corrupción/Carmesí y estado del mundo.</td>
+                        <td>Derrotar al ojo de Cthulhu, esqueletrón, devoramundos o al cerebro de Cthulhu.</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="recursos/NPC/Arms_Dealer.png" width="30PX" padding="5px auto">
+                        </td>
+                        <td>Traficante de armas</td>
+                        <td>Vende armas de fuego y munición.</td>
+                        <td>Conseguir alguna pistola o cualquier arma de fuego.</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="recursos/NPC/Old_Man.png" width="30PX" padding="5px auto">
+                        </td>
+                        <td>Anciano</td>
+                        <td>Estar en la mazmorra esperando a que lo liberes de su maldición.</td>
+                        <td>No haber derrotado a esqueletrón.</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="recursos/NPC/Clothier.png" width="30PX" padding="5px auto">
+                        </td>
+                        <td>Buhonero</td>
+                        <td>Vende objetos relacionados con mecanismos.</td>
+                        <td>Rescatándola en la mazmorra después de haber derrotado a Esqueletrón.</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="recursos/NPC/Goblin_Tinkerer.png" width="30PX" padding="5px auto">
+                        </td>
+                        <td>Duende chapucero</td>
+                        <td> chapucero	Vende objetos  variados y reforja tus armas y accesorios.</td>
+                        <td>Derrotar al Ejército de duendes y desatarlo en algún lugar del subsuelo.</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="recursos/NPC/Dye_Trader.png" width="30PX" padding="5px auto">
+                        </td>
+                        <td>Mercader de tintes No disponible en 3DS</td>
+                        <td>Vende tintes y da misiones para tintes.</td>
+                        <td>Tener un material para tintes, además de haber derrotado un jefe del modo normal o tener una planta extraña.</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="recursos/NPC/Party_Girl.png" width="30PX" padding="5px auto">
+                        </td>
+                        <td>Chica fiestera</td>
+                        <td>Vende objetos relacionados a fiestas.</td>
+                        <td>Tener al menos 13Versión de PCVersión de Consola / 8Versión de consolas antiguasVersión de móvil NPCs (2% de aparición por día).</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="recursos/NPC/Painter.png" width="30PX" padding="5px auto">
+                        </td>
+                        <td>Pintor</td>
+                        <td>Vende objetos para pintar y cuadros.</td>
+                        <td>Tener al menos 7 / 4 Versión de 3DS NPCs.</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="recursos/NPC/Witch_Doctor.png" width="30PX" padding="5px auto">
+                        </td>
+                        <td>Médico brujo</td>
+                        <td>Vende la máquina para imbuir armas y fuentes de agua.</td>
+                        <td>Derrotar a la Abeja reina.</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="recursos/NPC/Stylist.png" width="30PX" padding="5px auto">
+                        </td>
+                        <td>Estilista No disponible en 3DS</td>
+                        <td>Cambia el estilo y color del peinado y vende tintes para el pelo.</td>
+                        <td>Liberarla en Cuevas de arañas.</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="recursos/NPC/Traveling_Merchant.png" width="30PX" padding="5px auto">
+                        </td>
+                        <td>Mercader ambulante</td>
+                        <td>Vende artículos totalmente aleatorios.</td>
+                        <td>Tener al menos 2 NPCs, se quedará un día y después se irá, puede volver otro día aleatoriamente.</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="recursos/NPC/Angler.png" width="30PX" padding="5px auto">
+                        </td>
+                        <td>Pescador</td>
+                        <td>Te da recompensas por cumplir misiones de pesca.</td>
+                        <td>Despertarlo en una de las playas del mundo.</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="recursos/NPC/Tavernkeep.png" width="30PX" padding="5px auto">
+                        </td>
+                        <td>Tabernero No disponible en 3DS</td>
+                        <td>Vende objetos relacionados con Dungeon Defenders 2.</td>
+                        <td>Despertándolo despues de derrotar al devoramundos o cerebro de Cthulhu.</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="recursos/NPC/Skeleton_Merchant.png" width="30PX" padding="5px auto">
+                        </td>                        
+                        <td>Mercader esquelético</td>
+                        <td>Vende objetos de minería y yoyós.</td>
+                        <td>Se encuentra aleatoriamente en el subsuelo.</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="recursos/NPC/BestiaryGirl.png" width="30PX" padding="5px auto">
+                        </td>
+                        <td>Zoóloga Versión de PC</td>
+                        <td>Vende objetos relacionados a animales.</td>
+                        <td>Llenar un 10% (o 52 entradas) del Bestiario.</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="recursos/NPC/Golfer.png" width="30PX" padding="5px auto">
+                        </td>
+                        <td>Golfista Versión de PC</td>
+                        <td>Vende objetos relacionados al golf.</td>
+                        <td>Rescatarlo en el desierto subterráneo.</td>
+                    </tr>
+                </table>
+
+                <div class="titulos">
+                    <h4>NPC del modo difícil</h4>
+                    <p>
+                        Todos los NPC que se adquieren en el juego antes de pasar al modo difícil.
+                        Información de donde colocarlos, requisitos, etc.
+                    </p>
+                </div>
+                <table>
+                    <tr>
+                        <th></th>
+                        <th>Nombre</th>
+                        <th>Especialidad</th>
+                        <th>Requisitos</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="recursos/NPC/Wizard.png">
+                        </td>
+                        <td>Mago</td>
+                        <td>Vende objetos relacionados con la magia.</td>
+                        <td>Desatarlo en algún lugar del subsuelo o de la mazmorra (excepto en el inframundo).</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="recursos/NPC/Tax_Collector.png">
+                        </td>
+                        <td>Recaudador de impuestos</td>
+                        <td>Recolecta dinero de los demás NPCs, 50 Moneda de cobre por casa.</td>
+                        <td>Encontrar un alma torturada en el inframundo y lanzarle polvo de purificación.</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="recursos/NPC/Truffle.png">
+                        </td>
+                        <td>Trufa</td>
+                        <td>Vende el automartillo y objetos relacionados con hongos.</td>
+                        <td>Tener una casa en un bioma de champiñones en la superficie.</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="recursos/NPC/Steampunker.png">
+                        </td>
+                        <td>Steampunker</td>
+                        <td>Vende objetos con temática steampunk.</td>
+                        <td>Derrotar a un jefe mecánico.</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="recursos/NPC/Cyborg.png">
+                        </td>
+                        <td>Ciborg</td>
+                        <td>Vende cohetes y minas.</td>
+                        <td>Derrotar a Plantera.</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="recursos/NPC/Pirate.pngs">
+                        </td>
+                        <td>Pirata</td>
+                        <td>Vende objetos relacionados con piratas.</td>
+                        <td>Derrotar a la invasión pirata.</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="recursos/NPC/Santa_Claus.png">
+                        </td>
+                        <td>Papá Noel</td>
+                        <td>Vende objetos relacionados con la navidad.</td>
+                        <td>Derrotar a la legión de escarcha en navidad.</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="recursos/NPC/Princess.png">
+                        </td>
+                        <td>Princesa</td>
+                        <td>Vende objetos relacionados con la realeza y una caja musical</td>
+                        <td>Tener a todos los NPC</td>
+                    </tr>
+                </table>
+
+                <div class="titulos">
+                    <h4>Animales</h4>
+                    <p>
+                        Mascotas que puede conseguir dentro del juego, ya sea por un NPC o de manera natural.
+                    </p>
+                </div>
+                <table>
+                    <tr>
+                        <th>.</th>
+                        <th>NPC</th>
+                        <th>Especialidad</th>
+                        <th>Requisitos</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="recursos/NPC/Siamese_Cat.png">
+                        </td>
+                        <td>Gato</td>
+                        <td>Puede ser acariciado.</td>
+                        <td>Usa una Licencia de gato.</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="recursos/NPC/Beagle.png">
+                        </td>
+                        <td>Perro</td>
+                        <td>Puede ser acariciado.</td>
+                        <td>Usa una Licencia de perro.</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="recursos/NPC/Bunny_Angora.png">
+                        </td>
+                        <td>Conejo</td>
+                        <td>Puede ser acariciado.</td>
+                        <td>Usa una Licencia de conejo.</td>
+                    </tr>
+                </table>
+
+                <div class="titulos_2">
+                    <h4>Felicidad</h4>
+                    <p>
+                        La felicidad es una mecánica añadida en la actualizacion "Journey's End". Funciona como una estadística que puede subir y bajar dependiendo de varios factores, todos relacionados con la vida del NPC. Es posible conocer aproximadamente el estado de esta estadística al tocar el botón que dice "felicidad" al hablar con un NPC.
+                        Esta estadística afecta al precio de venta de los objetos que puede ser mayor o menor al precio original. Cuando el NPC vende objetos con un descuento del 25% (el valor es de un 85% de su valor original), significa que también puede vender la torre correspondiente al bioma en el que se encuentra. Los únicos que no se ven sujetos a esto son el mercader ambulante y el mercader esquelético.
+                    </p>
+                </div>
+                <div>
+
+                <table class="ultime">
+                    <tr>
+                        <td>
+                            <div class="tablafeli">
+                                <h4>Fatores que marcan la felicidad</h4>
+                                    <table>
+                                        <tr>
+                                            <th>
+                                                    <tr>
+                                                        <th>Momento del día</th>
+                                                        <th>Precios</th>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                        <ul>
+                                                            <li>Luna llena (1)</li>
+                                                            <li>Luna gibosa (2 y 8)</li>
+                                                            <li>Luna en cuarto (3 y 7)</li>
+                                                            <li>Luna creciente (4 y 6)</li>
+                                                            <li>Luna nueva (5)</li>
+                                                            <li>De día</li>
+                                                        </ul>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                        <ul>
+                                                            <li>40% más caros</li>
+                                                            <li>30% más caros</li>
+                                                            <li>20% más caros</li>
+                                                            <li>10% más caros</li>
+                                                            <li>Sin cambios</li>
+                                                            <li>10% más caros</li>                                                        </ul>
+                                                        </td>
+                                                    </tr>
+                                            </th>
+                                        </tr>
+                                    </table>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="tablafeli">
+                                <h4>Preferencias</h4>
+                                    <table>
+                                        <tr>
+                                            <th>
+                                                    <tr>
+                                                        <th>Acción</th>
+                                                        <th>Precios</th>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <ul>
+                                                                <li>Tener más de 2 NPCs dentro de 25 bloques (por cada NPC)</li>
+                                                                <li>Menos de 2 NPCs en 25 bloques y menos de 4 NPCs en 120 bloques</li>
+                                                                <li>Vivir en un bioma que ama</li>
+                                                                <li>Vivir en un bioma que le gusta</li>
+                                                                <li>Vivir en un bioma que no le gusta</li>
+                                                                <li>Vivir en un bioma que odia</li>
+                                                                <li>Por cada NPC que ama dentro de 25 bloques</li>
+                                                                <li>Por cada NPC que le cae bien dentro de 25 bloques</li>
+                                                                <li>Por cada NPC que le cae mal dentro de 25 bloques</li>
+                                                                <li>Por cada NPC que odia dentro de 25 bloques</li>
+                                                            </ul>
+                                                        </td>
+                                                        <td>
+                                                            <ul>
+                                                                <li>104% más caros</li>
+                                                                <li>90% más baratos</li>                                            <li></li>
+                                                                <li>90% más baratos</li>                                            <li></li>
+                                                                <li>95% más baratos</li>                                            <li></li>
+                                                                <li>105% más caros</li>                                            <li></li>
+                                                                <li>110% más caros</li>
+                                                                <li>90% más baratos</li>
+                                                                <li>95% más baratos</li>
+                                                                <li>105% más caros</li>
+                                                                <li>110% más caros</li>
+                                                            </ul>
+                                                        </td>
+                                                    </tr>
+                                            </th>
+                                        </tr>
+                                    </table>
+                            </div>
+                        </td>
+                        </div>
+                    </tr>
+                </table>
+
+                </div>
+            </div>
+
+
+        </section>
+
+        <footer>
+            <ul>  
+                <li>
+                    <img src="recursos/R.jpg" width="63px">
+                </li>
+                <li>
+                    <h2>WIKI:Terraria para todos</h2>
+                </li>
+                <li>
+                    <img src="recursos/R(1).png" width="169px">
+                </li>
+                <li>
+                    <h2>La información presentada tiene el unico fin de infromar</h2>
+                </li>
+            </ul>
+        </footer>
+    </body>
+</html>

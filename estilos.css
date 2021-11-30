@@ -1,0 +1,144 @@
+@charset "UTF-8";
+
+/*ESTRUCTURA*/
+
+body{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: auto;
+    background-image: url(recursos/PAISAJE-1.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+header{
+    position: static;
+    margin: 0px;
+    padding: 10px;
+    width: 100%;
+    height: 100px;
+    background-color: #1BCF5A;
+    background-position: bottom;
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+
+nav{
+    position: relative;
+    margin: 60px auto;
+    padding: 0px;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+
+
+}
+
+section{
+    background-size: cover;
+    margin: 20px 10px 20px 10px;
+    padding: 0px;
+    width: 930px;
+    height: auto;
+    float: left;
+    position: relative;
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.resumen{
+    background-color: #B7E9FF;
+    margin: 20px auto;
+    padding: 10px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    float: left;
+    width: auto;
+    height: 383px;
+    
+}
+
+
+/*CONTENIDO*/
+
+
+
+/*ESTRUCTURA*/
+
+footer{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100px;
+    background-color: #1BCF5A;
+    background-position: bottom;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    
+
+        position: static;
+        position:-webkit-sticky;
+        position: -mozz-sticky;
+        position: -ms-sticky;
+        top: 200px;
+}
+
+footer > ul > li{
+    background-color: rgba(red, green, blue, 1.0);
+    text-align: center;
+    justify-content: space-around;
+    display: inline-block;
+    background-position: bottom;
+
+}
+
+/*TEXTOS*/
+
+h1{
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: initial;
+    color: black;
+}
+
+h2{
+    margin: 20px;
+    padding: opx;
+    font-size: 35px;
+    font-weight: 800;
+    text-align: center;
+    color: white;
+}
+
+h3{
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    font-weight: normal;
+    text-align: justify;
+    text-transform: initial;
+    color: black;
+}
+
+h4{
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 21px;
+    font-weight: normal;
+    text-align: justify;
+    color: black;
+}
